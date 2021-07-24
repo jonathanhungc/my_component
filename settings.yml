@@ -1,0 +1,12 @@
+you_know_discourse: true
+
+greeting_type:
+  default: 'Hello World!'
+  type: enum
+  choices:
+    - 'Hello World!'
+    - 'Hey!'
+    - 'What's up!
+    - 'Hi'
+    - 'Hello there!'
+  description: 'Select a greeting type'
