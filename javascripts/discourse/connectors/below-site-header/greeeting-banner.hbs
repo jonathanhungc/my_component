@@ -1,10 +1,16 @@
 <div class="intro-message">
-    
+    <h3>
+        {{#if you_know_discourse}}
+            I know Discourse.
+        {{else}}
+            I don't know Discourse.
+        {{/if}}
+    </h3>
     
     <h3>
         {{d-icon "grin-beam"}}
 
-        ><strong>
+        <strong>
             {{theme-setting "greeting_type"}}
         </strong>
 
