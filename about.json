@@ -1,8 +1,14 @@
 {
+  "name": "My component",
+  "authors": "Jonathan Hung",
   "about_url": null,
-  "license_url": null,
+  "license_url": "https://github.com/jonathanhungc/my_component/blob/main/LICENSE",
   "assets": {
   },
-  "name": "My component",
-  "component": true
+  "component": true,
+  "modifiers": {
+    "svg_icons": [
+      "amazon"
+    ]
+  }
 }
