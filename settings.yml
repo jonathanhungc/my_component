@@ -1,4 +1,4 @@
-new_discourse: true
+new_user: true
 
 greeting_type:
   default: 'Hello World'
