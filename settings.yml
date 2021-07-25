@@ -2,7 +2,6 @@ greeting_type:
   default: 'Hello World!'
   type: enum
   choices:
-    - 'Hello World!'
     - 'Hey!'
     - 'What's up!
     - 'Hi'
