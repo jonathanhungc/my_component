@@ -1,12 +1,12 @@
 new_user: true
 
 greeting_type:
-  default: 'Hello World'
+  default: 'Hello World!'
   type: enum
   choices:
-   - 'Hello World'
-   - 'Hey'
-   - 'Whats up'
-   - 'Hi'
-   - 'Hello there'
-  description: 'Select a greeting type'
+   - 'Hello World!'
+   - 'Hey!'
+   - 'What's up!'
+   - 'Hi!'
+   - 'Hello there!'
+  description: 'Select a greeting type!'

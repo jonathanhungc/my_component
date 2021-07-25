@@ -1,14 +1,14 @@
 <div class="intro-message">
 
-    {{#if (theme-setting "new_user")}}
-        Welcome to Discourse!
-    {{else}}
-        Welcome back to Discourse!
-    {{/if}}
-    
     <h3>
-        {{d-icon "grin-beam"}} <strong>{{theme-setting "greeting_type"}}</strong>
-        This is a test component on Discourse! 
+        {{#if (theme-setting "new_user")}}
+            Welcome to Discourse!
+        {{else}}
+            Welcome back to Discourse!
+        {{/if}}
     </h3>
+    
+    {{d-icon "grin-beam"}} <strong>{{{theme-setting "greeting_type"}}}</strong>
+    This is a test component on Discourse.
 
 </div>
