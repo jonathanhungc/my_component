@@ -1,3 +1,5 @@
+new_discourse: true
+
 greeting_type:
   default: 'Hello World'
   type: enum
