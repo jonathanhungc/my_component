@@ -1,4 +1,4 @@
-you_know-: true
+you_know_discourse: true
 
 greeting_type:
   default: 'Hello World!'
