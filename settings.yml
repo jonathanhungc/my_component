@@ -1,5 +1,3 @@
-you_know_discourse: true
-
 greeting_type:
   default: 'Hello World!'
   type: enum
