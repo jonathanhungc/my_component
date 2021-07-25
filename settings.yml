@@ -6,7 +6,7 @@ greeting_type:
   choices:
    - 'Hello World!'
    - 'Hey!'
-   - 'What's up!'
+   - 'What''s up!'
    - 'Hi!'
    - 'Hello there!'
   description: 'Select a greeting type!'
