@@ -1,3 +1,4 @@
 en:
   theme_metadata:
     description: "My test component"
+  banner_message: "This is a test component on Discourse."
