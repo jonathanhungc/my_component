@@ -10,5 +10,18 @@
     
     {{d-icon "grin-beam"}} <strong>{{{theme-setting "Greeting_Type"}}}</strong>
     {{theme-i18n "banner_message"}}
-    
+
+<div class="wrap">
+    <h3>
+        Badges:
+    </h3>
+    <ul>
+        {{#each badges as |badge|}}
+        <li>
+            {{badge.name}}
+        </li>
+        {{/each}}
+    </ul>
+</div>
+
 </div>
