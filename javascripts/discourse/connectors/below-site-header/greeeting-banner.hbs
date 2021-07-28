@@ -2,9 +2,9 @@
 
     <h3>
         {{#if (theme-setting "New_User")}}
-            Welcome to Discourse!
+            Welcome, {{user.username}}!
         {{else}}
-            Welcome back to Discourse!
+            Welcome back, {{user.username}}!
         {{/if}}
     </h3>
     
