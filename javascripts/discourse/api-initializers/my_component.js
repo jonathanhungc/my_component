@@ -5,7 +5,7 @@ export default apiInitializer("0.11.1", api => {
 
   api.registerConnectorClass('below-site-header', 'greeting-banner', {
     setupComponents(args, component) {
-      ajax('/u/jonathanh').then((badgeData) => {
+      ajax('/u/jonathanh.json').then((badgeData) => {
         let user = badgeData.user;
         component.set('user', user)
       });
